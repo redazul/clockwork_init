@@ -1,6 +1,6 @@
 # clockwork_init
 
-#stage loging
+# stage loging
 
 mkdir /var/log/solana
 
