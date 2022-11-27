@@ -1,3 +1,8 @@
+# install docker 
+sudo apt update
+
+sudo apt upgrade
+
 # stage loging
 
 mkdir /var/log/solana
