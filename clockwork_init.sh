@@ -2,5 +2,5 @@
 
 echo "configuring new clockwork worker"
 git clone https://github.com/clockwork-xyz/clockwork
-./clockwork/scripts/build-all.sh .
+source ./clockwork/scripts/build-all.sh
 
