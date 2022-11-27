@@ -11,13 +11,14 @@ curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
 rustup component add rustfmt
 
-sudo apt-get update
-sudo apt-get install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang cmake make libprotobuf-dev protobuf-compiler
+echo "getting build dep"
+sudo apt-get -y  update
+sudo apt-get -y  install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang cmake make libprotobuf-dev protobuf-compiler
 
 
-echo cloning clockwork 
+echo "cloning clockwork" 
 git clone https://github.com/clockwork-xyz/clockwork
 
-echo building target
+echo "building clockwork"
 ./clockwork/scripts/build-all.sh clockwork/
 
