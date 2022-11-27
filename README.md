@@ -1,3 +1,3 @@
 # clockwork init
 
-sudo su -c "bash <(wget -qO- http://website.com/my-script.sh)" root
+https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh
