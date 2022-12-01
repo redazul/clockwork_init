@@ -10,7 +10,7 @@ solana-validator \
 --geyser-plugin-config /root/clockwork/lib/geyser-plugin-config.json \
 --identity /root/validator-keypair.json \
 --rpc-port 8899 \
-#   --entrypoint entrypoint.mainnet-beta.solana.com:8001 \
+--entrypoint entrypoint.mainnet-beta.solana.com:8001 \
 #   --entrypoint entrypoint2.mainnet-beta.solana.com:8001 \
 #   --entrypoint entrypoint3.mainnet-beta.solana.com:8001 \
 #   --entrypoint entrypoint4.mainnet-beta.solana.com:8001 \
