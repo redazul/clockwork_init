@@ -20,5 +20,5 @@ solana-validator \
 --only-known-rpc \
 --limit-ledger-size \
 --no-voting \
---wal-recovery-mode \
+--wal-recovery-mode skip_any_corrupted_record \
 --log /var/log/solana/solana-validator.log &
