@@ -20,5 +20,5 @@ solana-validator \
 --known-validator DE1bawNcRJB9rVm3buyMVfr8mBEoyyu73NBovf2oXJsJ \
 --known-validator CakcnaRDHka2gXyfbEd2d3xsvkJkqsLw2akB3zsN1D2S \
 --limit-ledger-size \
-#   --no-voting \
+--no-voting \
 #   --log /var/log/solana/solana-validator.log &
