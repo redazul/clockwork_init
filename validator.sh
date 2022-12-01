@@ -9,7 +9,7 @@ sudo $(command -v solana-sys-tuner) --user $(whoami) > sys-tuner.log 2>&1 &
 solana-validator \
 --geyser-plugin-config /root/clockwork/lib/geyser-plugin-config.json \
 --identity /root/validator-keypair.json \
-#   --rpc-port 8899 \
+--rpc-port 8899 \
 #   --entrypoint entrypoint.mainnet-beta.solana.com:8001 \
 #   --entrypoint entrypoint2.mainnet-beta.solana.com:8001 \
 #   --entrypoint entrypoint3.mainnet-beta.solana.com:8001 \
