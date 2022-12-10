@@ -2,6 +2,8 @@
 
 echo "getting latest solana build"
 sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+echo "updated bin"
 
 echo "getting rust"
 #curl https://sh.rustup.rs -sSf | sh
