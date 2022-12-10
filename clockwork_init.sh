@@ -9,7 +9,7 @@ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 
 
 echo "[2] getting rust"
-echo 1 | curl https://sh.rustup.rs -sSf | sh
+curl https://sh.rustup.rs -sSf | sh -y
 rustup component add rustfmt
 
 #echo "getting build dep"
