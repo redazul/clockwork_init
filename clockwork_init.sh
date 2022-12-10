@@ -11,15 +11,17 @@ echo "[2] getting rust"
 curl https://sh.rustup.rs -sSf | sh -s -- -y
 rustup component add rustfmt
 
-echo "[3] cloning clockwork" 
+echo "[3] getting build dep"
+sudo apt-get -y  update
+sudo apt-get -y  install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang cmake make libprotobuf-dev protobuf-compiler
+
+echo "[4] cloning clockwork" 
 git clone https://github.com/clockwork-xyz/clockwork
 
-echo "[4] building clockwork"
+echo "[5] building clockwork"
 ./clockwork/scripts/build-all.sh clockwork/
 
-#echo "getting build dep"
-#sudo apt-get -y  update
-#sudo apt-get -y  install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang cmake make libprotobuf-dev protobuf-compiler
+
 
 
 
