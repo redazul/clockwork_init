@@ -9,7 +9,7 @@ export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 echo "updated bin"
 echo "getting rust"
 
-source export_path.sh
+#source export_path.sh
 
 #curl https://sh.rustup.rs -sSf | sh
 #source $HOME/.cargo/env
