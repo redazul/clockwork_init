@@ -3,10 +3,12 @@ import json
 
 print("updating worker")
 
-3with open("replayScript.json", "r") as jsonFile:
-#    data = json.load(jsonFile)
+workerID = sys.argv[1]
 
-#data["location"] = "NewPath"
+with open("geyser-plugin-config.json", "r") as jsonFile:
+    data = json.load(jsonFile)
 
-#with open("replayScript.json", "w") as jsonFile:
-#    json.dump(data, jsonFile)
+data["worker_id"] = int(workerID)
+
+with open("geyser-plugin-config.json", "w") as jsonFile:
+    json.dump(data, jsonFile, indent=4,sort_keys=True)
