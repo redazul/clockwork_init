@@ -27,6 +27,9 @@ echo "[6] getting update worker script"
 echo "[6] building clockwork"
 ./clockwork/scripts/build-all.sh clockwork/
 
+echo "[7] get validator script"
+wget https://raw.githubusercontent.com/redazul/clockwork_init/main/validator.sh
+
 
 
 
