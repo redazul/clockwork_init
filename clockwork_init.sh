@@ -9,11 +9,9 @@ export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 echo "updated bin"
 echo "getting rust"
 
-#source export_path.sh
-
-#curl https://sh.rustup.rs -sSf | sh
-#source $HOME/.cargo/env
-#rustup component add rustfmt
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
+rustup component add rustfmt
 
 #echo "getting build dep"
 #sudo apt-get -y  update
