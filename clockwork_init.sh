@@ -21,6 +21,9 @@ sudo apt-get -y  install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang
 echo "[5] cloning clockwork" 
 git clone https://github.com/clockwork-xyz/clockwork
 
+echo "[6] getting update worker script"
+wget https://raw.githubusercontent.com/redazul/clockwork_init/main/update_id.py -P $HOME/clockwork/lib/
+
 echo "[6] building clockwork"
 ./clockwork/scripts/build-all.sh clockwork/
 
