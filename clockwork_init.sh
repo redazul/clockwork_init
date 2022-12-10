@@ -14,8 +14,8 @@ rustup component add rustfmt
 echo "[3] cloning clockwork" 
 git clone https://github.com/clockwork-xyz/clockwork
 
-#echo "[4] building clockwork"
-#./clockwork/scripts/build-all.sh clockwork/
+echo "[4] building clockwork"
+./clockwork/scripts/build-all.sh clockwork/
 
 #echo "getting build dep"
 #sudo apt-get -y  update
