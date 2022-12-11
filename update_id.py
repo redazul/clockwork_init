@@ -1,3 +1,6 @@
+import json
+import sys
+
 print("updating worker")
 
 keypath  = sys.argv[1]
