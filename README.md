@@ -1,4 +1,4 @@
-#Security Information 
+# Security Information 
 
 When operating a validator with a clockwork geyser, it's important to protect certain keypairs.
 Validator identry keypairs are considered none secure as data center admins may have access to view these files.
