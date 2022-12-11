@@ -1,8 +1,8 @@
 # Security Information 
 
 When operating a validator with a clockwork geyser, it's important to protect certain keypairs.
-Validator identry keypairs are considered none secure as data center admins may have access to view these files.
-Therefore to create a secure validator + clockwork worker voting accounts and clockwork accounts should be made from a device, 
+Validator identry keypairs are considered none secure as potentially datacenter admins and cloud service providers may have access to view these files.
+Therefore to create a secure validator + clockwork authority accounts should be made from a secured device, 
 seperate to that of the validator instance.
 
 # create worker account on secured laptop
