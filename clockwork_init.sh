@@ -35,6 +35,9 @@ echo "[6] building clockwork"
 echo "[7] get validator script"
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/validator.sh
 
+echo "[8] update worker config"
+python3 clockwork/lib/update_id.py  $HOME/.config/solana/id.json 3
+
 
 
 
