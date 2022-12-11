@@ -9,8 +9,8 @@ seperate to that of the validator instance.
 The following command should be done on a secured laptop.
 
 
-# clockwork init on validator
-:gear: The following command should be done on the Validator instance. (Not the secure laptop)
+# :door: :gear: clockwork init on validator
+ The following command should be done on the Validator instance. (Not the secure laptop)
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh); source export_path.sh;
 ```
