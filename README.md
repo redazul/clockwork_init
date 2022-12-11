@@ -11,7 +11,7 @@ seperate to that of the validator instance.
 
 
 # clockwork init
-:gear: The following command should be done on the Validator instance.
+:gear: The following command should be done on the Validator instance. (Not the secure laptop)
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh); source export_path.sh;
 ```
