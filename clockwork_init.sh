@@ -26,16 +26,16 @@ sudo apt-get -y  install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang
 echo "[5] cloning clockwork" 
 git clone https://github.com/clockwork-xyz/clockwork
 
-echo "[6] getting update worker script"
-wget https://raw.githubusercontent.com/redazul/clockwork_init/main/update_id.py -O $HOME/clockwork/lib/update_id.py
-
 echo "[6] building clockwork"
 ./clockwork/scripts/build-all.sh clockwork/
 
-echo "[7] get validator script"
+echo "[7] getting update worker script"
+wget https://raw.githubusercontent.com/redazul/clockwork_init/main/update_id.py -O $HOME/clockwork/lib/update_id.py
+
+echo "[8] get validator script"
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/validator.sh
 
-echo "[8] update worker config"
+echo "[9] update worker config"
 python3 clockwork/lib/update_id.py  $HOME/.config/solana/id.json 3
 
 
