@@ -1,6 +1,6 @@
 # create worker account
 
-The following command should be done on a secured laptop.
+:computer: The following command should be done on a secured laptop.
 
 
 # clockwork init
