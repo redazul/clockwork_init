@@ -40,18 +40,18 @@ python3 $HOME/clockwork/lib/update_id.py  $HOME/.config/solana/id.json 3 $HOME
 
 echo -e "\e[1;31m[WARNING do not! provide your clockwork Authority seed phrase...use Signatory seed phrase instead]"
 echo "EXAMPLE key to give"
-echo "Address: Hm8tCDvPCRCTvjufgWYSxJJB73ar6dugPU1e1b2HBwJB
-echo  Fees: 0
-echo  Penalty: 0
-echo  Worker {
-echo    authority: 2GrqFsGVx41fqNVkPfFYCbXXMavQ2XBfrvghFJfAoNbp,
-echo    commission_balance: 0,
-echo    commission_rate: 0,
-echo    id: 3,
-echo    signatory: GSwvcrXmVnXmidiRmeEQcB3Fe82ETxqxt9FNh3ENZJt6, <----- THIS ONE
-echo    total_delegations: 0,
-echo    }
-echo -e "[10] provide your clockwork Signer seed phrase"
+echo "Address: Hm8tCDvPCRCTvjufgWYSxJJB73ar6dugPU1e1b2HBwJB"
+echo  "Fees: 0"
+echo  "Penalty: 0"
+echo  "Worker {"
+echo    "authority: 2GrqFsGVx41fqNVkPfFYCbXXMavQ2XBfrvghFJfAoNbp,"
+echo    "commission_balance: 0,"
+echo    "commission_rate: 0,"
+echo    "id: 3,"
+echo    "signatory: GSwvcrXmVnXmidiRmeEQcB3Fe82ETxqxt9FNh3ENZJt6, <----- THIS ONE"
+echo    "total_delegations: 0,"
+echo    "}"
+echo -e "[10] provide your clockwork Signatory seed phrase"
 
 echo -e "\e[1;31m[This will replace your current Keypair located @ $HOME/.config/solana/id.json " 
 echo "ctrl+c to cancel signatory assignment"
