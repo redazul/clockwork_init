@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#purge old files
+rm clockwork -rf
+rm export_path.sh
+rm validator.sh
+
 echo "[0] get path update"
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/export_path.sh 
 chmod +x export_path.sh
