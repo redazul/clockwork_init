@@ -5,6 +5,7 @@ Validator identry keypairs are considered none secure as potentially datacenter 
 seperate to that of the validator instance.
 
 Read more about authorized accounts on Solana's offical Documentation.
+
 https://docs.solana.com/running-validator/validator-start#create-authorized-withdrawer-account
 
 # :closed_lock_with_key: :computer:  create worker account on secured laptop
