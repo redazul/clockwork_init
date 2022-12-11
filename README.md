@@ -5,12 +5,12 @@ Validator identry keypairs are considered none secure as data center admins may 
 Therefore to create a secure validator + clockwork worker voting accounts and clockwork accounts should be made from a device, 
 seperate to that of the validator instance.
 
-# create worker account
+# create worker account on laptop
 
 :computer: The following command should be done on a secured laptop.
 
 
-# clockwork init
+# clockwork init on hardware
 :gear: The following command should be done on the Validator instance. (Not the secure laptop)
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh); source export_path.sh;
