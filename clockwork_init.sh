@@ -55,7 +55,7 @@ echo -e "[10] provide your clockwork Signatory seed phrase"
 
 echo -e "\033[0;33m[This will replace your current Keypair located @ $HOME/.config/solana/id.json " 
 echo "ctrl+c to cancel signatory assignment"
-echo -e "\033[0;32m"
+echo -e "\033[0;92m"
 solana-keygen recover --force
 
 
