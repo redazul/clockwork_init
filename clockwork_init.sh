@@ -39,7 +39,7 @@ echo "[9] update worker config"
 python3 $HOME/clockwork/lib/update_id.py  $HOME/.config/solana/id.json 3 $HOME
 
 echo -e "\e[1;31m[WARNING do not! provide your clockwork Authority seed phrase...use Signatory seed phrase instead]"
-echo -e"\033[0;32mEXAMPLE key to give"
+echo -e "\033[0;32mEXAMPLE key to give"
 echo "Address: Hm8tCDvPCRCTvjufgWYSxJJB73ar6dugPU1e1b2HBwJB"
 echo  "Fees: 0"
 echo  "Penalty: 0"
