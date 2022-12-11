@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #purge old files
-rm clockwork -rf
 rm export_path.sh
 rm validator.sh
 
