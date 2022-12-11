@@ -13,7 +13,7 @@ https://docs.solana.com/running-validator/validator-start#create-authorized-with
 The following command should be done on a secured laptop.
 
 
-# :door: :gear: clockwork init on validator (ubuntu 20.04)
+# :door: :gear: clockwork init on validator
  The following command should be done on the Validator instance. (Not the secure laptop)
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh); source export_path.sh;
