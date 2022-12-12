@@ -10,6 +10,7 @@ chmod +x export_path.sh
 
 echo "[1] create log directory"
 sudo mkdir /var/log/solana
+sudo chmod 777 /var/log/solana
 
 echo "[2] getting latest solana build"
 sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
