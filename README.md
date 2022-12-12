@@ -11,6 +11,10 @@ https://docs.solana.com/running-validator/validator-start#create-authorized-with
 # :closed_lock_with_key: :computer:  create worker account on secured laptop
 
 The following command should be done on a secured laptop.
+```
+coming soon
+```
+
 
 
 # :door: :gear: clockwork init on validator
