@@ -33,11 +33,10 @@ wget https://raw.githubusercontent.com/redazul/clockwork_init/main/update_id.py 
 
 echo "[8] get validator script"
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/validator.sh
+chmod +x validator.sh
 
 echo "[9] update worker config"
 python3 $HOME/clockwork/lib/update_id.py  $HOME/.config/solana/id.json 3 $HOME
-
-solana-keygen recover --force
 
 
 
