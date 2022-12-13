@@ -1,0 +1,5 @@
+logs:
+   - type: file
+     path: "/home/sol/solana-rpc.log"
+     service: "clockwork_rpc"
+     source: "rpc-1"
