@@ -20,7 +20,9 @@ coming soon
 # :door: :gear: clockwork init on validator
  The following command should be done on the Validator instance. (Not the secure laptop)
 ```
-bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh); source export_path.sh;
+bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);\
+source export_path.sh;\
+solana-keygen recover;
 ```
 
 # :bookmark_tabs: :mag: Monitoring Solution (Optional)
