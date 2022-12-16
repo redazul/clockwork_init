@@ -1,6 +1,6 @@
-/var/log/solana/*.log {
+/var/log/solana/solana_validator.log{
         maxsize 200M
         hourly
         missingok
-        rotate 3
+        rotate 0
 }
