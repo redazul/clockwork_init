@@ -30,7 +30,9 @@ echo "[6] building clockwork"
 ./clockwork/scripts/build-all.sh clockwork/
 
 echo "[7] getting update worker script"
-wget https://raw.githubusercontent.com/redazul/clockwork_init/main/update_id.py -O $HOME/clockwork/lib/update_id.py
+cd $HOME/clockwork/lib
+wget https://raw.githubusercontent.com/redazul/clockwork_init/main/update_id.py
+cd ~
 
 echo "[8] get validator script"
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/validator.sh
