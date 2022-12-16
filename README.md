@@ -26,5 +26,5 @@ bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clo
 # :bookmark_tabs: :mag: Monitoring Solution (Optional)
  The following command will route `/var/log/solana/solana_validator.log` + server metrics to a grafana dashboard
 ```
-bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_log.sh); source export_path.sh;
+bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_log.sh);
 ```
