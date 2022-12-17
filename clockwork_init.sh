@@ -31,6 +31,7 @@ echo "[5] cloning clockwork"
 git clone https://github.com/clockwork-xyz/clockwork
 
 echo "[6] building clockwork"
+source "$HOME/.cargo/env"
 ./clockwork/scripts/build-all.sh clockwork/
 
 echo "[7] getting update worker script"
