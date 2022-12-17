@@ -28,7 +28,7 @@ clockwork create new ~/signatory.json
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);\
 source export_path.sh;\
-solana-keygen recover;
+solana-keygen recover; #<signatory.json seed phrase here>
 ```
 
 # :bookmark_tabs: :mag: Monitoring Solution (Optional)
