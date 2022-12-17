@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "What is your worker ID ?"
+read workerID
+
 #purge old files
 rm export_path.sh
 rm validator.sh
@@ -40,7 +43,7 @@ wget https://raw.githubusercontent.com/redazul/clockwork_init/main/validator.sh
 chmod +x validator.sh
 
 echo "[9] update worker config"
-python3 $HOME/clockwork/lib/update_id.py  $HOME/.config/solana/id.json 3 $HOME
+python3 $HOME/clockwork/lib/update_id.py  $HOME/.config/solana/id.json $workerID $HOME
 
 
 
