@@ -42,10 +42,14 @@ echo "[8] get validator script"
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/validator.sh
 chmod +x validator.sh
 
-echo "[9] update worker config"
+echo "[9] get pre validator script"
+wget https://raw.githubusercontent.com/redazul/clockwork_init/main/pre_validator.sh
+chmod +x pre_validator.sh
+
+echo "[10] update worker config"
 python3 $HOME/clockwork/lib/update_id.py  $HOME/.config/solana/id.json $workerID $HOME
 
-echo "[10] create systemd monitor"
+echo "[11] create systemd monitor"
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/sol.service -O /etc/systemd/system/sol.service
 sed -i "s|/bin:/usr/bin:/home/sol/.local/share/solana/install/active_release/bin|/bin:/usr/bin:$HOME/.local/share/solana/install/active_release/bin|g" /etc/systemd/system/sol.service
 sed -i "s|ExecStart=/home/sol/bin/validator.sh|ExecStart=$HOME/validator.sh|g" /etc/systemd/system/sol.service
