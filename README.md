@@ -26,6 +26,8 @@ solana transfer ~/signatory.json 0.5 --allow-unfunded-recipient
 
 # :door: :gear: clockwork init on validator
  The following command should be done on the Validator instance. (Not the secure laptop)
+ 
+ It's design to run on an empty server / fresh install.
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);\
 source export_path.sh;\
