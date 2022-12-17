@@ -50,9 +50,6 @@ wget https://raw.githubusercontent.com/redazul/clockwork_init/main/sol.service -
 sed -i "s|/bin:/usr/bin:/home/sol/.local/share/solana/install/active_release/bin|/bin:/usr/bin:$HOME/.local/share/solana/install/active_release/bin|g" /etc/systemd/system/sol.service
 sed -i "s|ExecStart=/home/sol/bin/validator.sh|ExecStart=$HOME/validator.sh|g" /etc/systemd/system/sol.service
 
-echo "[11] start service"
-sudo systemctl enable --now sol
-
 
 
 
