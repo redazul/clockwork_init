@@ -12,7 +12,8 @@ https://docs.solana.com/running-validator/validator-start#create-authorized-with
 
 The following command should be done on a secure laptop. 
 Your solana config keypair will be the secure authrority account and requires small amount of SOL to create the clockwork account.
-signatory.json will be your validator identity and clockwork signer...requires small amount of SOL to process transactions.
+
+`~/signatory.json` will be your validator identity and clockwork signer...requires small amount of SOL to process transactions.
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/create_account.sh)
 source export_path.sh;\
