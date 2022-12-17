@@ -34,6 +34,7 @@ echo "[6] building clockwork"
 ./clockwork/scripts/build-all.sh clockwork/
 
 echo "[7] getting update worker script"
+while [ ! -f $HOME/clockwork/lib/geyser-plugin-config.json ]; do sleep 1; done
 cd $HOME/clockwork/lib
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/update_id.py
 cd ~
