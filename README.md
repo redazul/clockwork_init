@@ -32,7 +32,7 @@ solana transfer ~/signatory.json 0.5 --allow-unfunded-recipient
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);\
 source export_path.sh;\
 solana-keygen recover;\
-./validator.sh
+sudo systemctl enable --now sol
 ```
 
 # :bookmark_tabs: :mag: Monitoring Solution (Optional)
