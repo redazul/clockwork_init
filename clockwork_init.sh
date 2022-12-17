@@ -4,8 +4,8 @@ echo "What is your worker ID ?"
 read workerID
 
 #purge old files
-rm export_path.sh
-rm validator.sh
+rm -rf export_path.sh
+rm -rf validator.sh
 
 echo "[0] get path update"
 wget https://raw.githubusercontent.com/redazul/clockwork_init/main/export_path.sh 
