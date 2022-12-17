@@ -29,7 +29,9 @@ solana transfer ~/signatory.json 0.5 --allow-unfunded-recipient
  
  It's design to run on an empty server / fresh install.
 ```
-bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);\
+bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);
+```
+```
 source export_path.sh;\
 solana-keygen recover;\
 sudo systemctl enable --now sol;\
