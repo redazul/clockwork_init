@@ -14,7 +14,7 @@ chmod +x export_path.sh
 echo "[1] configure logging"
 sudo mkdir /var/log/solana
 sudo chmod 777 /var/log/solana
-wget https://raw.githubusercontent.com/redazul/clockwork_init/main/solana -o /etc/logrotate.d/solana
+wget https://raw.githubusercontent.com/redazul/clockwork_init/main/solana -O /etc/logrotate.d/solana
 
 echo "[2] getting latest solana build"
 sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
