@@ -12,7 +12,7 @@ https://docs.solana.com/running-validator/validator-start#create-authorized-with
 
 The following command should be done on a secure laptop.
 ```
-bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh)
+bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/create_account.sh)
 ```
 
 
