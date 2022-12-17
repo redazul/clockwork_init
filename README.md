@@ -25,12 +25,6 @@ clockwork create new ~/signatory.json
 
 # :door: :gear: clockwork init on validator
  The following command should be done on the Validator instance. (Not the secure laptop)
- 
- `Worker {
- 
-    id: <#>, <--- When the script asks...give your worker ID
-    
-}`
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);\
 source export_path.sh;\
