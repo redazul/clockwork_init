@@ -23,6 +23,3 @@ git clone https://github.com/clockwork-xyz/clockwork
 
 echo "[6] building clockwork"
 ./clockwork/scripts/build-all.sh clockwork/
-
-#purge old files
-rm export_path.sh
