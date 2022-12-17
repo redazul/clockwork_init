@@ -16,6 +16,8 @@ Your solana config keypair will be the secure authrority account and requires sm
 `~/signatory.json` will be your validator identity and clockwork signer...requires small amount of SOL to process transactions.
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/create_account.sh)
+```
+```
 source export_path.sh;\
 solana-keygen new -o ~/signatory.json;\
 clockwork create new ~/signatory.json;\
