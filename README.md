@@ -34,11 +34,18 @@ solana transfer ~/signatory.json 0.5 --allow-unfunded-recipient
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);
 ```
 ```
-source export_path.sh;\
-solana-keygen recover;\
-sudo systemctl enable --now sol;\
-sudo systemctl status --now sol;\
+source export_path.sh
 ```
+```
+solana-keygen recover
+```
+```
+sudo systemctl enable --now sol
+```
+```
+sudo systemctl status --now sol
+```
+
 
 # :bookmark_tabs: :mag: Monitoring Solution (Optional)
  The following command will route `/var/log/solana/solana_validator.log` + server metrics to a grafana dashboard
