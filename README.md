@@ -52,3 +52,14 @@ sudo systemctl status --now sol
 ```
 bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_log.sh);
 ```
+
+# :door: :gear: Stop and Reset Validator with updated Versions
+ The following command should be done on the Validator instance. (Not the secure laptop)
+
+```
+sudo systemctl stop sol
+```
+
+```
+bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);
+```
