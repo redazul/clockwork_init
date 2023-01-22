@@ -4,6 +4,7 @@ echo "What is your worker ID ?"
 read workerID
 
 #purge old files
+rm -rf clockwork
 rm -rf export_path.sh
 rm -rf validator.sh
 
