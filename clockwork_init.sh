@@ -5,6 +5,7 @@ read workerID
 
 #purge old files
 rm -rf clockwork
+rm -rf pre_validator.sh
 rm -rf export_path.sh
 rm -rf validator.sh
 
