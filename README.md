@@ -61,5 +61,9 @@ sudo systemctl stop sol
 ```
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/clockwork_init.sh);
+sh -c "$(curl -sSfL https://release.solana.com/<version>/install)"
+```
+
+```
+sh -c "$(curl -sSfL https://release.solana.com/<version>/install)"
 ```
