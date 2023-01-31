@@ -65,5 +65,5 @@ sh -c "$(curl -sSfL https://release.solana.com/<version>/install)"
 ```
 
 ```
-sh -c "$(curl -sSfL https://release.solana.com/<version>/install)"
+cd clockwork ; git checkout <v1.4.3>
 ```
