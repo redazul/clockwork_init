@@ -70,7 +70,7 @@ cp clockwork/lib/geyser-plugin-config.json ~/
 ```
 
 ```
-cd clockwork ; git checkout v1.4.3
+cd clockwork ; git pull; git checkout v1.4.3
 ```
 
 ```
