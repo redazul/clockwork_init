@@ -61,9 +61,18 @@ sudo systemctl stop sol
 ```
 
 ```
-sh -c "$(curl -sSfL https://release.solana.com/<version>/install)"
+sh -c "$(curl -sSfL https://release.solana.com/v1.14.3/install)"
 ```
 
 ```
-cd clockwork ; git checkout <v1.4.3>
+cd clockwork ; git checkout v1.4.3
 ```
+
+```
+sudo systemctl start sol
+```
+
+```
+tail -f /var/log/solana/solana_validator.log
+```
+
