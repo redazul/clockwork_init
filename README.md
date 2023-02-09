@@ -85,7 +85,6 @@ cd clockwork ; git pull; git checkout v1.4.3
 ```
 ./scripts/build-all.sh .
 export PATH=$PWD/bin:$PATH
-cp ~/clockwork-worker-keypair.json ~/clockwork/lib/
 cp ~/geyser-plugin-config.json ~/clockwork/lib/ 
 ```
 ```
