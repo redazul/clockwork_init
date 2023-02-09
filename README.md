@@ -24,7 +24,7 @@ source export_path.sh;\
 solana-keygen new -o ~/signatory.json;\
 ```
 ```
-clockwork create ~/signatory.json;\
+clockwork worker create ~/signatory.json;\
 ```
 ```
 solana transfer ~/signatory.json 0.5 --allow-unfunded-recipient
