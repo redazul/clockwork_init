@@ -19,8 +19,14 @@ bash <(curl -s https://raw.githubusercontent.com/redazul/clockwork_init/main/cre
 ```
 ```
 source export_path.sh;\
+```
+```
 solana-keygen new -o ~/signatory.json;\
-clockwork create new ~/signatory.json;\
+```
+```
+clockwork create ~/signatory.json;\
+```
+```
 solana transfer ~/signatory.json 0.5 --allow-unfunded-recipient
 ```
 
