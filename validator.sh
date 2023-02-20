@@ -24,6 +24,7 @@ exec solana-validator --no-poh-speed-test\
                       --expected-genesis-hash 5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d \
                       --wal-recovery-mode skip_any_corrupted_record \
                       --limit-ledger-size \
+                      --disable-accounts-disk-index \
                       --geyser-plugin-config $HOME/clockwork/lib/geyser-plugin-config.json
 
 # save
